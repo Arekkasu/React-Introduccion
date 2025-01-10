@@ -3,9 +3,9 @@ import { useState } from "react";
 import PropTypes from "prop-types";
 
 //La funcion sigue igual y no se renderiza de nuevo
-function handleClick(event) {
-  console.log(event);
-}
+// function handleClick(event) {
+//   console.log(event);
+// }
 
 export const CounterApp = ({ value }) => {
   // Acalara que por cada hook se rende
